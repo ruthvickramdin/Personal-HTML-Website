@@ -1,0 +1,306 @@
+﻿* {
+    margin: 0;
+}
+
+body {
+    background-color: white;
+    margin-top: 1%;
+    margin-left: 8%;
+    margin-right: 8%;
+    overflow: auto;
+    overflow-x: hidden;
+}
+
+/************** Header ****************/
+
+div.header {
+    height: 15%;
+    width: 100%;
+}
+
+img.kLogo {
+    float: left;
+    height: 14%;
+    width: 14%;
+}
+
+img.wsuLogo {
+    float: right;
+    height: 14%;
+    width: 14%;
+}
+
+hr.division {
+    border: 0;
+    height: 0;
+    width: 100%;
+    box-shadow: 0 0 6px 0.75px black;
+    margin-top: 6%;
+}
+
+/************** Main Content ****************/
+
+#container {
+    padding: 1%;
+}
+#container #profile {
+    display: inline-block;  
+    margin-left: 5%; 
+    margin-right: 5%; 
+    width: 90%;
+}
+#container #profile figure img {
+    float: right; 
+    display: inline-block;
+    width: 20%; 
+    position: relative;
+    transition: all 0.3s ease-in; 
+    transform: scale(1);
+    z-index: 1;
+}
+#container #profile figure img:hover {
+    transition: all 0.3s ease-in;
+    transform: scale(1.1);
+}
+#container #profile figure figcaption {
+    display: normal; 
+    float: left; 
+    width: 76%;  
+    padding: 1.25%; 
+    overflow: hidden; 
+    color: #989898; 
+    background-color: #DEDEDE; 
+    line-height: 1.6em;
+}
+#container #profile figure figcaption h2 { 
+    float: right; 
+    font-size: 42px; 
+    font-weight: normal; 
+    font-style: italic;
+}
+#container #profile figure figcaption a{ 
+    color: #FF9900; 
+    background-color: #DEDEDE;
+}
+
+#container #information {
+    display: inline-block; 
+    margin-left: 5%; 
+    margin-right: 5%; 
+    width: 90%;
+}
+
+#container #information figure img {
+    float: left; 
+    display: inline-block;
+    width: 25%; 
+    position: relative;
+    transition: all 0.3s ease-in; 
+    transform: scale(1);
+    z-index: 1;
+}
+
+#container #information figure figcaption {
+    display: inline-block; 
+    float: right; 
+    width: 70%;  
+    padding: 1.25%; 
+    overflow: hidden; 
+    color: #989898; 
+    background-color: #DEDEDE; 
+    line-height: 1.6em;
+}
+
+#container #information figure figcaption h2 { 
+    float: left; 
+    font-size: 36px; 
+    font-weight: normal; 
+    font-style: italic;
+}
+
+#container #skills {
+    display: inline-block;
+    margin-left: 5%; 
+    margin-right: 5%; 
+    width: 90%; 
+}
+
+#container #skills div {
+    display: inline-block;  
+    float:left;
+    width: 76%;  
+    padding: 1.5%; 
+    overflow: hidden; 
+    color: #989898; 
+    background-color: #DEDEDE; 
+    line-height: 1.8em;
+}
+
+#container #skills div h2 { 
+    float: right; 
+    font-size: 42px; 
+    font-weight: normal; 
+    font-style: italic;
+}
+
+#container #skills img {
+    float: right; 
+    display: inline-block;
+    width: 20%; 
+    position: inherit;
+    z-index: 1;
+}
+
+#container #interest {
+    display: inline-block;
+    margin-left: 5%; 
+    margin-right: 5%; 
+    width: 90%; 
+}
+
+#container #interest img {
+    float: left; 
+    display: inline-block;
+    width: 21%; 
+    position: inherit;
+    z-index: 1;
+}
+
+#container #interest div {
+    display: inline-block; 
+    float: right; 
+    width: 75%;  
+    padding: 1.25%; 
+    overflow: hidden; 
+    color: #989898; 
+    background-color: #DEDEDE; 
+    line-height: 1.6em;
+}
+
+#container #interest div h2 { 
+    float: left; 
+    font-size: 42px; 
+    font-weight: normal; 
+    font-style: italic;
+}
+
+#container #media {
+    display: inline-block;
+    margin-left: 5%; 
+    margin-right: 5%; 
+    width: 90%; 
+}
+
+#container #media div {
+    display: inline-block;  
+    width: 100%;  
+    padding: 1.25%; 
+    overflow: hidden; 
+    color: white; 
+    background-color: red; 
+    line-height: 1.6em;
+}
+
+#container #media div:hover {
+    background-color: green;
+}
+
+#container #media div h2 { 
+    float: left; 
+    font-size: 42px; 
+    font-weight: normal; 
+    font-style: italic;
+}
+
+#container #media div #video1 { 
+	position: relative;
+	width: 25%;
+    margin-top: 1%;
+    padding: 1% 5% 1% 1%;
+    border: none;
+}
+
+#container #media div #video2 { 
+	position: relative;
+	width: 34%;
+    margin-top: 1%;
+    padding: 1% 5% 1% 1%;
+    border: none;
+}
+
+/************** Footer ****************/
+
+hr.footerDivision {
+    border: 0;
+    height: 0;
+    width: 100%;
+    box-shadow: 0 0 6px 0.75px black;
+    margin-top: 2%;
+    margin-bottom: 4%;
+}
+
+.footer {
+    position: inherit;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    font-family: 'Arial Rounded MT';
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 1%;
+}
+
+.size {
+    font-size: 70%;
+}
+
+ul li {
+    display:inline-block;
+    margin-top:1%;
+    margin-bottom:1%;
+}
+ 
+ul li a i {
+    background: #205D7A;
+    color: #fff;
+    width: 35px;
+    height: 26px;
+    text-align: center;
+    margin-right: 15px;
+    padding-top: 15%;
+    transition: all 0.2s ease-in-out;
+    margin-bottom: 10%;
+}
+
+.fa-facebook {
+    background:#3b5998;
+} 
+.fa-linkedin {
+    background:#007bb6;
+}
+.fa-twitter {
+    background:#00aced;
+}
+.google-plus {
+    background:#dd4b39;
+}
+.fa-github {
+    background:#a9a9a9;
+}
+
+ul li a i:hover {
+    opacity: .7;
+}
+
+.zoom {
+    display: inline-block;
+    position: relative;
+    transition: all 0.3s ease-in; 
+    transform: scale(1)
+}
+
+.zoom:hover {
+    transition: all 0.3s ease-in;
+    transform: scale(1.1); 
+}
